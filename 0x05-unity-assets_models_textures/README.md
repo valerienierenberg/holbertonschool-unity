@@ -19,3 +19,7 @@
 - What is a Rigidbody and what is a Character Controller and what are the pros and cons of using each
 - What is a Quaternion
 
+
+## Credits
+
+[Skyboxes: Farland Skies - Cloudy Crown](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)

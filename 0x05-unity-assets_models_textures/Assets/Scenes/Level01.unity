@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 617d9be015db68348a623b01ea51a8c5, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.47886407, g: 0.80019325, b: 0.8993807, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: fcc51e3ec5a08884bbe666ad4fb59598, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -181,6 +181,10 @@ PrefabInstance:
     - target: {fileID: 1925873226565265906, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925873226565265913, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: JumpHeight
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
@@ -1876,7 +1880,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1234318968
 GameObject:
@@ -2177,7 +2181,7 @@ Transform:
   m_LocalScale: {x: 20.427689, y: 20.427689, z: 20.427689}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1283541626
 MonoBehaviour:
@@ -2651,9 +2655,10 @@ GameObject:
   - component: {fileID: 1660361318}
   - component: {fileID: 1660361317}
   - component: {fileID: 1660361316}
+  - component: {fileID: 1660361320}
   m_Layer: 0
   m_Name: WinFlag
-  m_TagString: Untagged
+  m_TagString: WinFlag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2735,6 +2740,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1660361320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660361315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bec63d67d449274a89ed3e802181267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1690138024}
+  TimerText: {fileID: 1387402266}
 --- !u!1 &1690138024 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1925873226565265906, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
@@ -3576,7 +3595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1824288670144083791, guid: 4c22b2955a613e74a8d1443780aafd30, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1824288670144083791, guid: 4c22b2955a613e74a8d1443780aafd30, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3673,7 +3692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7411016326512516799, guid: 556b816f405a1e5489a0d8084fdb8107, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7411016326512516799, guid: 556b816f405a1e5489a0d8084fdb8107, type: 3}
       propertyPath: m_LocalPosition.x

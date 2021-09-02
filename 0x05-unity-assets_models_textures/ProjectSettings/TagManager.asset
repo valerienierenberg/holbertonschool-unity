@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - TimerTrigger
+  - WinFlag
   layers:
   - Default
   - TransparentFX
