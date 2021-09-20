@@ -8,6 +8,7 @@ public class WinTrigger : MonoBehaviour
     public GameObject Player;
     public Text TimerText;
     private Timer timer_script;
+    public GameObject WinCanvas;
 
     // Start is called before the first frame update
     void Start()
@@ -24,10 +25,12 @@ public class WinTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.GetComponent<Timer>().enabled = false;
+            WinCanvas.SetActive(true);
+            timer_script.Win();
+            //other.GetComponent<Timer>().enabled = false;
             //TimerText.text = timer_script.elapsedTime.ToString();
-            TimerText.fontSize = 60;
-            TimerText.color = Color.green;
+            //TimerText.fontSize = 60;
+            //TimerText.color = Color.green;
         }
     }
 }

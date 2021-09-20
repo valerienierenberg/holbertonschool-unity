@@ -10,6 +10,8 @@ public class Timer : MonoBehaviour
     float elapsedTime;
     private TimeSpan timePlaying;
 
+    public Text FinalTime;
+
     // Initialization
     void Start ()
     {
@@ -23,5 +25,14 @@ public class Timer : MonoBehaviour
         timePlaying = TimeSpan.FromSeconds(elapsedTime);
         string timePlayingStr = timePlaying.ToString("mm':'ss'.'ff");
         TimerText.text = timePlayingStr;
+    }
+
+    public void Win()
+    {
+        // when player touches win flag, finish time is displayed in FinalTime in WinCanvas
+        timePlaying = TimeSpan.FromSeconds(elapsedTime);
+        string timePlayingStr = timePlaying.ToString("mm':'ss'.'ff");
+        FinalTime.text = timePlayingStr;
+        GetComponent<Timer>().TimerText.enabled = false;
     }
 }
