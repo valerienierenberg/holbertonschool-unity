@@ -613,9 +613,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SFX
-
-'
+  m_Text: SFX
 --- !u!222 &337000509
 CanvasRenderer:
   m_ObjectHideFlags: 0
