@@ -11595,13 +11595,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3104601677148188964, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 84548225}
+    - target: {fileID: 3728177340085013639, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728177340085013639, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728177340085013639, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -267
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728177340085013639, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7
+      objectReference: {fileID: 0}
     - target: {fileID: 4399062296180332725, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062296180332725, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4399062296180332729, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
       propertyPath: m_Pivot.x
@@ -11688,18 +11704,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7432012661251671415, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 84548225}
-    - target: {fileID: 7432012661876144345, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 84548225}
-    - target: {fileID: 7432012662052188839, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 84548225}
-    - target: {fileID: 7432012662772455179, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 84548225}
