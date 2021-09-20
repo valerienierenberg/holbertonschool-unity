@@ -11692,57 +11692,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 84548225}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062295086884996, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4399062296180332725, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4399062296180332725, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4399062296180332729, guid: 47846dada4a6dfe449ad36044adcd849, type: 3}
       propertyPath: m_Pivot.x
