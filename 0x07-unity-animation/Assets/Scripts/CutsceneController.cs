@@ -30,7 +30,6 @@ public class CutsceneController : MonoBehaviour
             PlayerCapsule.GetComponent<PlayerController>().enabled = true;
             Player.GetComponent<PlayerController>().enabled = true;
             GetComponent<CutsceneController>().enabled = false;
-            //Player.GetComponent<PlayerController>().enabled = true;
         }
     }
 }
