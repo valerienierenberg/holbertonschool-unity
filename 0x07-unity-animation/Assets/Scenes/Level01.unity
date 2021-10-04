@@ -2003,6 +2003,7 @@ GameObject:
   - component: {fileID: 368711427}
   - component: {fileID: 368711426}
   - component: {fileID: 368711429}
+  - component: {fileID: 368711430}
   m_Layer: 0
   m_Name: CutsceneCamera
   m_TagString: Untagged
@@ -2094,6 +2095,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &368711430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368711425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552da25d3f742cf47b9a1dd8077dac21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCapsule: {fileID: 1690138024}
+  Player: {fileID: 1834369648}
+  PlayerFollowCamera: {fileID: 1094574156}
+  TimerCanvas: {fileID: 954729115}
+  CutsceneCamera: {fileID: 368711427}
 --- !u!4 &380133825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 8c888acf8ad1e2f429a4bccfca285f11, type: 3}
@@ -4233,6 +4251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerFollowCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 2070925441746177671, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4281,6 +4303,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 271520897}
+    - target: {fileID: 2070925441746177913, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177913, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_Lens.FieldOfView
       value: 100
@@ -4691,6 +4717,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 1ffc3ed37bd42d441a4d8205755a4543, type: 3}
   m_PrefabInstance: {fileID: 1342839214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &954729115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1824288670144083787, guid: 4c22b2955a613e74a8d1443780aafd30, type: 3}
+  m_PrefabInstance: {fileID: 1824288669893532713}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &958405275
 PrefabInstance:
@@ -9473,7 +9504,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690138024}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acbe9b318e6deac4c9325c4a8fe47adc, type: 3}
   m_Name: 
@@ -10453,7 +10484,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834369648}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acbe9b318e6deac4c9325c4a8fe47adc, type: 3}
   m_Name: 
@@ -11681,6 +11712,10 @@ PrefabInstance:
     - target: {fileID: 1824288670144083787, guid: 4c22b2955a613e74a8d1443780aafd30, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824288670144083787, guid: 4c22b2955a613e74a8d1443780aafd30, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1824288670144083791, guid: 4c22b2955a613e74a8d1443780aafd30, type: 3}
       propertyPath: m_Pivot.x
