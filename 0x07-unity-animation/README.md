@@ -1,23 +1,18 @@
-# 0x06. Unity - Assets: UI
-- [Project Page](https://intranet.hbtn.io/projects/437)
+# 0x07. Unity - Animation
+- [Project Page](https://intranet.hbtn.io/projects/452)
 
-## Building a 3D Platformer Game
-- This project is the second in a series that will result in a platformer game in which the character can move and jump around onto different platforms.
+## Adding animations to my 3D Platformer Game
 
 ## Learning Objectives
-
-What is an Asset and how to import and use them
-How to import images to use in a user interface
-What is a Sprite
-How is a Sprite different from a Texture
-How to use the Sprite Editor
-What is 9-slicing
-How to create a Slider
-How to create a Toggle
-How to swap button images
-How to use PlayerPrefs and what are they used for
+- What is a keyframe
+- What are Dopesheets and how to use them
+- What are Curves and how to use them
+- How to import and use Animation Clips
+- What are Animator Controllers and how to use them
+- What is a State Machine
+- What is a Sub-State Machine
+- What is Root Motion
 
 ## Credits
-
-[Skyboxes: Farland Skies - Cloudy Crown](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
-[Models: Kenney's Nature Pack Extended](https://kenney.nl/assets/nature-pack-extended)
+- [Skyboxes: Farland Skies - Cloudy Crown](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
+- [Models: Kenney's Nature Pack Extended](https://kenney.nl/assets/nature-pack-extended)
