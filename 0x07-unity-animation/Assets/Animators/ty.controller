@@ -259,7 +259,7 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 7521761893739987184}
-    m_Position: {x: 40, y: 0, z: 0}
+    m_Position: {x: -10, y: -50, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
@@ -276,7 +276,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New StateMachine
+  m_Name: FallingDown
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 7678810008493502610}
