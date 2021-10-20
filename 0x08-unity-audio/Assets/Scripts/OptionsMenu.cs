@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
     public GameObject invertYToggle;
     public bool isInverted;
+    public AudioMixer BGM;
+    public AudioMixer SFX;
+    public Slider BGMSlider;
+    public Slider SFXSlider;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +26,8 @@ public class OptionsMenu : MonoBehaviour
             invertYToggle.GetComponent<UnityEngine.UI.Toggle>().isOn = false;
             isInverted = false;
         }
+        BGMSlider.value = PlayerPrefs.GetFloat("BGMVol", 0.75f);
+        SFXSlider.value = PlayerPrefs.GetFloat("SFXVol", 0.75f);
     }
 
     // Update is called once per frame
@@ -51,5 +59,15 @@ public class OptionsMenu : MonoBehaviour
         isInverted = !isInverted;
     }
 
-    
+    public void SetBGMToggle(float sliderValue)
+    {
+        BGM.SetFloat("BGMVol", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("BGMVol", sliderValue);
+    }
+
+    public void SetSFXToggle(float sliderValue)
+    {
+        SFX.SetFloat("SFXVol", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SFXVol", sliderValue);
+    }
 }
